@@ -1,3 +1,5 @@
+from graphviz import Digraph
+
 class bplustreenode:
     def __init__(self, is_leaf=False):
         self.is_leaf = is_leaf
