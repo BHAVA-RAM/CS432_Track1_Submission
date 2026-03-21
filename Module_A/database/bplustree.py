@@ -7,6 +7,8 @@ class bplustreenode:
         self.children = []   # internal nodes
         self.values = []     # leaf nodes
         self.next = None     # leaf linkage
+    def is_full(self, degree):  
+        return len(self.keys) >= degree - 1
 
 
 class bplustree:
